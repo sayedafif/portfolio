@@ -365,7 +365,7 @@ h4: hover
     background-color: white;
 }
 
-img {
+.project-img {
     width: 450px;
     display: block;
     margin: 0 auto;
@@ -456,4 +456,24 @@ img {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
     box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
     letter-spacing: 2px;
+}
+#profile-pic {
+    width: 30%;
+}
+.btn-lg {
+    font-size: 12px;
+}
+@media screen and (max-width: 992px) {
+    #profile-pic {
+        width: 70%;
+    }
+    h2 {
+        font-size: 5em;
+    }
+    .btn-lg {
+        font-size: 28px;
+    }
+    p, .about-me {
+        font-size: 2em;
+    }
 }
