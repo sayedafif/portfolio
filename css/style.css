@@ -499,3 +499,7 @@ body{
     width: 60%;
     padding-bottom: 1em;
 }
+.main-content p{
+    width: 60%;
+    margin: 0 auto;
+}
