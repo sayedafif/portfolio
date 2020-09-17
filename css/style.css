@@ -118,7 +118,7 @@ html {
 body {
     color: black;
     letter-spacing: .18em;
-}
+  }
 
 a {
     text-decoration: none;
@@ -273,7 +273,7 @@ body.fp-viewing-fifthSection-1 #menu li:last-child a {
 
 section {
     text-align: center;
-    /*background: url('https://unsplash.it/1910/1221?image=626') no-repeat center / cover;*/
+    margin-left: 20em;
 }
 
 h2 {
@@ -458,14 +458,23 @@ h4: hover
     letter-spacing: 2px;
 }
 #profile-pic {
-    width: 30%;
+    width: 20%;
+    padding-top: 5em;
 }
 .btn-lg {
     font-size: 12px;
 }
+body{
+    height: 100vh;
+    background: url(../img/background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
 @media screen and (max-width: 992px) {
     #profile-pic {
         width: 70%;
+        padding-top: 15em;
     }
     h2 {
         font-size: 5em;
@@ -476,4 +485,17 @@ h4: hover
     p, .about-me {
         font-size: 2em;
     }
+    body{
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background: #cbab3a;
+    }
+    section{
+        margin-left: 0px;
+    }
+}
+.main-content h3{
+    margin: 0 auto;
+    width: 60%;
+    padding-bottom: 1em;
 }

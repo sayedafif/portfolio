@@ -1,4 +1,5 @@
 // variables
+/*
 var $header_top = $('.header-top');
 var $nav = $('nav');
 
@@ -51,3 +52,4 @@ $('#fullpage').fullpage({
         }
     }
 });
+*/
